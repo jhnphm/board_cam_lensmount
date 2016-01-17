@@ -1,3 +1,5 @@
+//All units in mm
+
 //diameter
 mount_d=13.9;
 //radius
@@ -54,7 +56,7 @@ difference(){
             //        cylinder(h=mount_base_s/2,r=(mount_screw_hole_r+mount_thickness));
 
     }
-#
+
     union(){
         //Mount top
         translate([0,0,-mount_h/2])cylinder(h=mount_h*2,r=mount_r);
